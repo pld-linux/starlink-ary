@@ -5,8 +5,7 @@ Version:	1.1_8.218
 Release:	1
 License:	GPL
 Group:		Libraries
-#Source0:	ftp://ftp.starlink.rl.ac.uk/pub/ussc/store/ary/ary.tar.Z
-Source0:	ary.tar.Z
+Source0:	ftp://ftp.starlink.rl.ac.uk/pub/ussc/store/ary/ary.tar.Z
 # Source0-md5:	77c27af971f0f14890ec02473f9d1c3f
 URL:		http://www.starlink.rl.ac.uk/static_www/soft_further_ARY.html
 BuildRequires:	gcc-g77
