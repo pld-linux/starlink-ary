@@ -56,7 +56,7 @@ Statyczne biblioteki Starlink ARY.
 %setup -q -c
 
 sed -i -e "s/ -O'/ %{rpmcflags} -fPIC'/" mk
-sed -i -e "s/\\('-L\\\$(STAR_\\)LIB) /\\1SHARE) /;s/-lerr /&-lerr_standalone /;s/-lhds_adam/-lhds -lerr/;s/-lchr_adam -lprm_adam/-lchr -lprm/" makefile
+sed -i -e "s/\\('-L\\\$(STAR_\\)LIB) /\\1SHARE) /;s/-lerr /-lerr_standalone /;s/-lhds_adam/-lhds/;s/-lchr_adam -lprm_adam/-lchr -lprm/" makefile
 
 %build
 SYSTEM=ix86_Linux \
