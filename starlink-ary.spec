@@ -23,14 +23,15 @@ The ARY library is a set of routines for accessing Starlink ARRAY data
 structures built using the Hierarchical Data System (HDS).
 
 %description -l pl
-Biblioteka ARY to zbiór funkcji s³u¿±cych do dostêpu do struktur danych
-Starlink ARRAY (tablic) przy u¿yciu hierarchicznego systemu danych HDS.
+Biblioteka ARY to zbiór funkcji s³u¿±cych do dostêpu do struktur
+danych Starlink ARRAY (tablic) przy u¿yciu hierarchicznego systemu
+danych HDS.
 
 %package devel
 Summary:	Header files for ARY libraries
 Summary(pl):	Pliki nag³ówkowe bibliotek ARY
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 Requires:	starlink-err-devel
 Requires:	starlink-prm-devel
 
@@ -44,7 +45,7 @@ Pliki nag³ówkowe bibliotek ARY.
 Summary:	Static Starlink ARY libraries
 Summary(pl):	Statyczne biblioteki Starlink ARY
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static Starlink ARY libraries.
