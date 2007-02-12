@@ -1,5 +1,5 @@
 Summary:	ARY - subroutines for accessing ARRAY data structures
-Summary(pl):	ARY - funkcje do dostêpu do tablicowych struktur danych (ARRAY)
+Summary(pl.UTF-8):   ARY - funkcje do dostÄ™pu do tablicowych struktur danych (ARRAY)
 Name:		starlink-ary
 Version:	1.1_8.218
 Release:	1
@@ -22,14 +22,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The ARY library is a set of routines for accessing Starlink ARRAY data
 structures built using the Hierarchical Data System (HDS).
 
-%description -l pl
-Biblioteka ARY to zbiór funkcji s³u¿±cych do dostêpu do struktur
-danych Starlink ARRAY (tablic) przy u¿yciu hierarchicznego systemu
+%description -l pl.UTF-8
+Biblioteka ARY to zbiÃ³r funkcji sÅ‚uÅ¼Ä…cych do dostÄ™pu do struktur
+danych Starlink ARRAY (tablic) przy uÅ¼yciu hierarchicznego systemu
 danych HDS.
 
 %package devel
 Summary:	Header files for ARY libraries
-Summary(pl):	Pliki nag³ówkowe bibliotek ARY
+Summary(pl.UTF-8):   Pliki nagÅ‚Ã³wkowe bibliotek ARY
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	starlink-err-devel
@@ -38,19 +38,19 @@ Requires:	starlink-prm-devel
 %description devel
 Header files for ARY libraries.
 
-%description devel -l pl
-Pliki nag³ówkowe bibliotek ARY.
+%description devel -l pl.UTF-8
+Pliki nagÅ‚Ã³wkowe bibliotek ARY.
 
 %package static
 Summary:	Static Starlink ARY libraries
-Summary(pl):	Statyczne biblioteki Starlink ARY
+Summary(pl.UTF-8):   Statyczne biblioteki Starlink ARY
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static Starlink ARY libraries.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczne biblioteki Starlink ARY.
 
 %prep
