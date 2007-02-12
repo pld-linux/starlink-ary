@@ -1,5 +1,5 @@
 Summary:	ARY - subroutines for accessing ARRAY data structures
-Summary(pl.UTF-8):   ARY - funkcje do dostępu do tablicowych struktur danych (ARRAY)
+Summary(pl.UTF-8):	ARY - funkcje do dostępu do tablicowych struktur danych (ARRAY)
 Name:		starlink-ary
 Version:	1.1_8.218
 Release:	1
@@ -29,7 +29,7 @@ danych HDS.
 
 %package devel
 Summary:	Header files for ARY libraries
-Summary(pl.UTF-8):   Pliki nagłówkowe bibliotek ARY
+Summary(pl.UTF-8):	Pliki nagłówkowe bibliotek ARY
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	starlink-err-devel
@@ -43,7 +43,7 @@ Pliki nagłówkowe bibliotek ARY.
 
 %package static
 Summary:	Static Starlink ARY libraries
-Summary(pl.UTF-8):   Statyczne biblioteki Starlink ARY
+Summary(pl.UTF-8):	Statyczne biblioteki Starlink ARY
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
